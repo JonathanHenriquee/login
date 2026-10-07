@@ -1,0 +1,154 @@
+/*reset básico*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(IMAGENS/Fundo.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+width: 420px;
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 10px;
+padding: 50px 40px;
+color: #fff;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+backdrop-filter: blur(30px);
+
+
+}
+
+.container h1{
+color: rgb(133, 38, 38);
+font-size: 33px;
+text-align: center;
+
+}
+
+
+.input-box{
+width: 100%;
+height: 50px;
+margin: 30px 0px;
+position: relative; /*mudar a posição do elemento com a minha necessidade*/
+
+}
+.input-box input{
+width: 100%;
+height: 100%;
+background-color: transparent;
+border: 2px solid;
+border-radius: 40px;
+outline: none;
+color: #fff;
+padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder{
+color: white;
+
+}
+
+.input-box i{
+    position: absolute;
+top: 30%;
+right: 20px;
+font-size: 20px;
+
+}
+
+
+.remember-forgot {
+display: flex;
+justify-content: space-between;
+
+}
+
+.remember-forgot label input{
+margin-right: 5px;
+
+
+}
+
+.remember-forgot a{
+text-decoration: none;
+color: #fff;
+
+}
+
+.remember-forgot a:hover{
+text-decoration: underline;
+
+}
+
+.remember-forgot a:active{
+font-size: 15px;
+
+}
+
+
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(182, 180, 180);
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 3);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.login:hover{
+background-color: transparent;
+transition:0.1s;
+border: 2px solid #fff;
+color: #fff;
+
+}
+
+.login:active{
+font-size: 15px;
+ transition: 0.1s;
+}
+
+
+
+
+
+
+.register-link{
+   font-size: 14px;
+   text-align: center;
+   margin: 20px 0px 15px;
+
+}
+
+.register-link a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+
+}
+
+.register-link a:active{
+font-size: 12px;
+
+}
